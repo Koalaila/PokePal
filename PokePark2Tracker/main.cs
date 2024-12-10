@@ -59,7 +59,6 @@ namespace PokePark2Tracker
                 {
                     try
                     {
-                        // Assuming PokemonTracker.GetPokemon is defined correctly
                         var pokemon = PokemonTracker.GetPokemon(number);
 
                         if (pokemon != null)
