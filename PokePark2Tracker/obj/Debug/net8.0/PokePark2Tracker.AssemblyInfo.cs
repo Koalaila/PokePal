@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokePark2Tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3afbc820911242b2c1c906f8a4964d9b0159ff0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b654d2d06126bf69147ccc37c538cadb4b37850")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokePark2Tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokePark2Tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
