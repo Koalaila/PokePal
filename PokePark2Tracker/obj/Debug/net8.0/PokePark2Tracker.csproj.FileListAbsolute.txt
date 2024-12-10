@@ -1,0 +1,4 @@
+D:\projects\Poke Park 2 Tracker\PokePark2Tracker\obj\Debug\net8.0\PokePark2Tracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Poke Park 2 Tracker\PokePark2Tracker\obj\Debug\net8.0\PokePark2Tracker.AssemblyInfoInputs.cache
+D:\projects\Poke Park 2 Tracker\PokePark2Tracker\obj\Debug\net8.0\PokePark2Tracker.AssemblyInfo.cs
+D:\projects\Poke Park 2 Tracker\PokePark2Tracker\obj\Debug\net8.0\PokePark2Tracker.csproj.CoreCompileInputs.cache
