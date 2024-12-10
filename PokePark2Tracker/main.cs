@@ -10,6 +10,7 @@ namespace PokePark2Tracker
         static void Main(string[] args)
         {
             Console.WriteLine(PokeCS.PokemonTracker.GetPokemon(165));
+            //example usage for now
         }
 
         
