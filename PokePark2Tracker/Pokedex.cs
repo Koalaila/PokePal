@@ -212,11 +212,4 @@ namespace PokeCS{
             }
         }
     }
-    class Program{
-        public static void App()
-        {
-            //TODO figure out whatever this is
-        
-        }
-        }
 }
