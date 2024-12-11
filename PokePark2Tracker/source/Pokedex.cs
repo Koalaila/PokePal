@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-namespace PokeCS{
-    class PokemonTracker{ 
+namespace PokeCS
+{
+    class PokemonTracker
+    {
         public static Dictionary<int, string> Pokedex = new Dictionary<int, string>()
                 {
                     {1, "Piplup"},

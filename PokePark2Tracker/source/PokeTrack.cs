@@ -1,5 +1,6 @@
 ﻿using System;
 using PokeCS;
+using Items;
 
 namespace PokePark2Tracker
 {
@@ -10,10 +11,11 @@ namespace PokePark2Tracker
             while (true)
             {
                 Console.WriteLine("What would you like to do?");
-                Console.WriteLine("1: Get Pokemon");
+                Console.WriteLine("1: List Pokemon");
                 Console.WriteLine("2: Add Completed Pokemon");
-                Console.WriteLine("3: Exit");
-                string choice = Console.ReadLine();
+                Console.WriteLine("3: List Items");
+                Console.WriteLine("4: Exit");
+                string? choice = Console.ReadLine();
 
                 if (!string.IsNullOrEmpty(choice))
                 {
@@ -28,6 +30,10 @@ namespace PokePark2Tracker
                             Console.WriteLine("Haha jk I'm not done yet lmao :) Will come soon");
                         }
                         else if (choice == "3")
+                        {
+                            getItems();
+                        }
+                        else if (choice == "4")
                         {
                             Console.WriteLine("Goodbye!");
                             break;
@@ -51,7 +57,7 @@ namespace PokePark2Tracker
         static void getPokedex()
         {
             Console.WriteLine("Please enter a Pokemon number from 1-194: ");
-            string userInput = Console.ReadLine();
+            string? userInput = Console.ReadLine();
 
             if (int.TryParse(userInput, out int number))
             {
@@ -78,6 +84,43 @@ namespace PokePark2Tracker
                 else
                 {
                     Console.WriteLine("Number out of range. Please enter a number between 1 and 194.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+        }
+        static void getItems()
+        {
+            Console.WriteLine("Please enter an Item number from 1-32: ");
+            string? userInput = Console.ReadLine();
+
+            if (int.TryParse(userInput, out int number))
+            {
+                if (number >= 1 && number <= 32)
+                {
+                    try
+                    {
+                        var item = ItemTracker.getItem(number);
+
+                        if (item != null)
+                        {
+                            Console.WriteLine($"You selected: {item}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No Pokémon found with this number.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error retrieving item: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Number out of range. Please enter a number between 1 and 32.");
                 }
             }
             else
