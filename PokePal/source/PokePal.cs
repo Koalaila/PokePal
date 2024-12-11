@@ -12,9 +12,8 @@ namespace PokePark2Tracker
             {
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("1: List Pokemon");
-                Console.WriteLine("2: Add Completed Pokemon");
-                Console.WriteLine("3: List Items");
-                Console.WriteLine("4: Exit");
+                Console.WriteLine("2: List Items");
+                Console.WriteLine("3: Exit");
                 string? choice = Console.ReadLine();
 
                 if (!string.IsNullOrEmpty(choice))
@@ -27,13 +26,9 @@ namespace PokePark2Tracker
                         }
                         else if (choice == "2")
                         {
-                            Console.WriteLine("Haha jk I'm not done yet lmao :) Will come soon");
-                        }
-                        else if (choice == "3")
-                        {
                             getItems();
                         }
-                        else if (choice == "4")
+                        else if (choice == "3")
                         {
                             Console.WriteLine("Goodbye!");
                             break;

@@ -1,0 +1,5 @@
+D:\projects\PokePalTracker\obj\Debug\net8.0\PokePark2Tracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\PokePalTracker\obj\Debug\net8.0\PokePark2Tracker.AssemblyInfoInputs.cache
+D:\projects\PokePalTracker\obj\Debug\net8.0\PokePark2Tracker.AssemblyInfo.cs
+D:\projects\PokePalTracker\obj\Debug\net8.0\PokePark2Tracker.csproj.CoreCompileInputs.cache
+D:\projects\PokePalTracker\obj\Debug\net8.0\PokePark2Tracker.sourcelink.json

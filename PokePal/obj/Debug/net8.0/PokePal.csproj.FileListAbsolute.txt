@@ -1,0 +1,15 @@
+D:\projects\PokePalTracker\PokePal\bin\Debug\net8.0\PokePal.exe
+D:\projects\PokePalTracker\PokePal\bin\Debug\net8.0\PokePal.deps.json
+D:\projects\PokePalTracker\PokePal\bin\Debug\net8.0\PokePal.runtimeconfig.json
+D:\projects\PokePalTracker\PokePal\bin\Debug\net8.0\PokePal.dll
+D:\projects\PokePalTracker\PokePal\bin\Debug\net8.0\PokePal.pdb
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.AssemblyInfoInputs.cache
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.AssemblyInfo.cs
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.csproj.CoreCompileInputs.cache
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.sourcelink.json
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.dll
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\refint\PokePal.dll
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.pdb
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\PokePal.genruntimeconfig.cache
+D:\projects\PokePalTracker\PokePal\obj\Debug\net8.0\ref\PokePal.dll

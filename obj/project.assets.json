@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\PokePalTracker\\PokePal\\PokePal.csproj",
-      "projectName": "PokePal",
-      "projectPath": "D:\\projects\\PokePalTracker\\PokePal\\PokePal.csproj",
+      "projectUniqueName": "D:\\projects\\PokePalTracker\\PokePark2Tracker.csproj",
+      "projectName": "PokePark2Tracker",
+      "projectPath": "D:\\projects\\PokePalTracker\\PokePark2Tracker.csproj",
       "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\PokePalTracker\\PokePal\\obj\\",
+      "outputPath": "D:\\projects\\PokePalTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
