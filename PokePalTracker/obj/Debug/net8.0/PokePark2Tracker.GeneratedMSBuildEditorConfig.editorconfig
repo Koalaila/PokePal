@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokePark2Tracker
-build_property.ProjectDir = D:\projects\Poke Park 2 Tracker\PokePark2Tracker\
+build_property.ProjectDir = D:\projects\PokePalTracker\PokePalTracker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
