@@ -16,6 +16,7 @@ namespace Area
                 { 5, "Arcane Area" },
                 { 6, "Wish Park" }
             };
+        //Method to get the area name based on the number
         public static string getArea(int number)
         {
             if (areaTracker.ContainsKey(number))

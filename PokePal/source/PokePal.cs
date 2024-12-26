@@ -3,10 +3,9 @@ using PokeCS;
 using Items;
 using Area;
 /* 
- *
  * This program is for searching different things in PokePark to help with 100%ing the game
+ * At the moment it can search for Pokemon, Items, and Areas
  * It is likely still a work in progress if you are reading this
- * 
 */
 namespace PokePark2Tracker
 {
@@ -60,7 +59,7 @@ namespace PokePark2Tracker
                 }
             }
         }
-        //Function for searching the dictionary of all Pokemon in the game
+        //Method for searching the dictionary of all Pokemon in the game
         static void getPokedex()
         {
             Console.WriteLine("Please enter a Pokemon number from 1-194: ");
@@ -98,7 +97,7 @@ namespace PokePark2Tracker
                 Console.WriteLine("Invalid input. Please enter a valid number.");
             }
         }
-        //Function for searching the items in the Dictionary 
+        //Method for searching the items in the Dictionary 
         static void getItems()
         {
             Console.WriteLine("Please enter an Item number from 1-32: ");
@@ -136,7 +135,7 @@ namespace PokePark2Tracker
                 Console.WriteLine("Invalid input. Please enter a valid number.");
             }
         }
-        //Function for searching the areas in the Game
+        //Method for searching the areas in the Game
         static void getAreas()
         {
             Console.WriteLine("Please enter an Item number from 1-6: ");
