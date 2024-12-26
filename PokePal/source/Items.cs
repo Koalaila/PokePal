@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+
 namespace Items
 {
 class ItemTracker
     {
+        //Dictionary to hold the items in the game
         public static Dictionary<int, string> items = new Dictionary<int, string>
         {
             { 1, "Durabubbles" },

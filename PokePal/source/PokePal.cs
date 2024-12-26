@@ -1,6 +1,7 @@
 ﻿using System;
 using PokeCS;
 using Items;
+using Area;
 /* 
  *
  * This program is for searching different things in PokePark to help with 100%ing the game
@@ -18,7 +19,8 @@ namespace PokePark2Tracker
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("1: List Pokemon");
                 Console.WriteLine("2: List Items");
-                Console.WriteLine("3: Exit");
+                Console.WriteLine("3: List Areas");
+                Console.WriteLine("4: Exit");
                 string? choice = Console.ReadLine();
 
                 if (!string.IsNullOrEmpty(choice))
@@ -34,6 +36,10 @@ namespace PokePark2Tracker
                             getItems();
                         }
                         else if (choice == "3")
+                        {
+                            getAreas();
+                        }
+                        else if (choice == "4")
                         {
                             Console.WriteLine("Goodbye!");
                             break;
@@ -105,6 +111,44 @@ namespace PokePark2Tracker
                     try
                     {
                         var item = ItemTracker.getItem(number);
+
+                        if (item != null)
+                        {
+                            Console.WriteLine($"You selected: {item}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No Pokémon found with this number.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error retrieving item: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Number out of range. Please enter a number between 1 and 32.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+        }
+        //Function for searching the areas in the Game
+        static void getAreas()
+        {
+            Console.WriteLine("Please enter an Item number from 1-6: ");
+            string? userInput = Console.ReadLine();
+
+            if (int.TryParse(userInput, out int number))
+            {
+                if (number >= 1 && number <= 6)
+                {
+                    try
+                    {
+                        var item = Areas.getArea(number);
 
                         if (item != null)
                         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokePal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b75875338629166477cbbc82ee5dd39c5ff5c14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8564d91e2e8f2d50d32ddb66efd267e62e277dba")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokePal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokePal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,7 @@ namespace PokeCS
 {
     class PokemonTracker
     {
+        //Dictionary to hold the Pokemon in the game
         public static Dictionary<int, string> Pokedex = new Dictionary<int, string>()
                 {
                     {1, "Piplup"},
