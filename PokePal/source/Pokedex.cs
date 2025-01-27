@@ -203,6 +203,7 @@ namespace PokeCS
                     {193, "Reshiram"},
                     {194, "Zekrom"}
                 };
+        //Method to get the Pokemon name based on the number
         public static string GetPokemon(int number)
         {
             if (Pokedex.ContainsKey(number))

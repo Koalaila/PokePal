@@ -41,7 +41,7 @@ class ItemTracker
             { 31, "Compasses" },
             { 32, "Megaphones" }
         };
-
+        //Method to get the item name based on the number
         public static string getItem(int number)
         {
             if (items.ContainsKey(number))
